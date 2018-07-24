@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>JAVA_SCRIPT_Exercise_004</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = null;
+    document.getElementById("demo").innerHTML = Boolean(x);
+    document.getElementById('demo').style.display = 'block';
+}
+</script>
+
+</body>
+</html>

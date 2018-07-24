@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<h2>JAVA_SCRIPT_Exercise_003</h2>
+
+<script>
+var bvar=false;
+function changeOnClick(){
+	if(Boolean(bvar)){
+		document.getElementById('btn').innerHTML="True";
+		bvar=false;
+	}
+	else{
+		document.getElementById('btn').innerHTML="False";
+		bvar=true;
+	}
+}
+
+</script>
+<body>
+
+
+
+<p id="demo">JavaScript can change HTML content.</p>
+
+<button id='btn' type="button" onclick=changeOnClick()>Click Me!</button>
+
+</body>
+</html>

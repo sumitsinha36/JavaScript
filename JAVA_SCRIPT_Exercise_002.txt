@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JAVA_SCRIPT_Exercise_002</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to print current Date and Time</button>
+
+<p id="demo"></p>
+
+</body>
+</html> 
